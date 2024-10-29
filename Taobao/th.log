@@ -1,0 +1,444 @@
+nohup: 忽略输入
+WARNING:tensorflow:From NextItNet_TH.py:192: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING:tensorflow:From NextItNet_TH.py:47: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From NextItNet_TH.py:49: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From NextItNet_TH.py:100: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+WARNING:tensorflow:From NextItNet_TH.py:56: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/max/Desktop/Projects/RL4REC/Taobao/NextItNetModules.py:38: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /home/max/anaconda3/envs/tf115/lib/python3.7/site-packages/tensorflow_core/python/util/dispatch.py:180: calling expand_dims (from tensorflow.python.ops.array_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the `axis` argument instead
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/max/anaconda3/envs/tf115/lib/python3.7/site-packages/tensorflow_core/contrib/layers/python/layers/layers.py:1866: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From NextItNet_TH.py:94: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/max/anaconda3/envs/tf115/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From NextItNet_TH.py:199: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From NextItNet_TH.py:202: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2024-10-29 16:24:38.699074: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2024-10-29 16:24:38.702331: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-10-29 16:24:38.702423: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.665
+pciBusID: 0000:01:00.0
+2024-10-29 16:24:38.702564: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2024-10-29 16:24:38.703295: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2024-10-29 16:24:38.703965: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2024-10-29 16:24:38.704179: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2024-10-29 16:24:38.704998: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2024-10-29 16:24:38.705633: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2024-10-29 16:24:38.707747: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2024-10-29 16:24:38.707834: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-10-29 16:24:38.707941: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-10-29 16:24:38.707992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2024-10-29 16:24:38.708189: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2024-10-29 16:24:38.711915: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2496000000 Hz
+2024-10-29 16:24:38.712285: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x45d3700 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-10-29 16:24:38.712306: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2024-10-29 16:24:38.752819: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-10-29 16:24:38.752967: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55004a0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2024-10-29 16:24:38.752987: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2024-10-29 16:24:38.753104: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-10-29 16:24:38.753180: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.665
+pciBusID: 0000:01:00.0
+2024-10-29 16:24:38.753203: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2024-10-29 16:24:38.753211: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2024-10-29 16:24:38.753218: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2024-10-29 16:24:38.753224: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2024-10-29 16:24:38.753231: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2024-10-29 16:24:38.753237: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2024-10-29 16:24:38.753244: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2024-10-29 16:24:38.753267: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-10-29 16:24:38.753331: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-10-29 16:24:38.753380: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2024-10-29 16:24:38.753428: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2024-10-29 16:24:38.753570: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2024-10-29 16:24:38.753582: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2024-10-29 16:24:38.753586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2024-10-29 16:24:38.753631: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-10-29 16:24:38.753714: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2024-10-29 16:24:38.753780: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 20045 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+WARNING:tensorflow:From NextItNet_TH.py:204: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2024-10-29 16:24:40.750885: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2024-10-29 16:24:40.867245: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+the loss in 200th batch is: 11.928391
+the loss in 400th batch is: 11.734654
+the loss in 600th batch is: 11.720451
+the loss in 800th batch is: 11.532530
+the loss in 1000th batch is: 11.499271
+the loss in 1200th batch is: 11.198505
+the loss in 1400th batch is: 11.105421
+the loss in 1600th batch is: 11.082176
+the loss in 1800th batch is: 10.792794
+the loss in 2000th batch is: 10.642428
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 240.600000
+clicks hr ndcg @ 5 : 0.014493, 0.010625
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 335.400000
+clicks hr ndcg @ 10 : 0.018795, 0.012020
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 416.600000
+clicks hr ndcg @ 15 : 0.024004, 0.013396
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 489.200000
+clicks hr ndcg @ 20 : 0.029212, 0.014618
+#############################################################
+the loss in 2200th batch is: 10.348749
+the loss in 2400th batch is: 10.172230
+the loss in 2600th batch is: 9.911004
+the loss in 2800th batch is: 9.680595
+the loss in 3000th batch is: 10.082935
+the loss in 3200th batch is: 9.396716
+the loss in 3400th batch is: 9.368790
+the loss in 3600th batch is: 9.550188
+the loss in 3800th batch is: 9.272088
+the loss in 4000th batch is: 9.082014
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 277.800000
+clicks hr ndcg @ 5 : 0.016304, 0.012097
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 381.000000
+clicks hr ndcg @ 10 : 0.021966, 0.013969
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 455.800000
+clicks hr ndcg @ 15 : 0.026042, 0.015037
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 523.800000
+clicks hr ndcg @ 20 : 0.030797, 0.016169
+#############################################################
+the loss in 4200th batch is: 8.904742
+the loss in 4400th batch is: 9.083815
+the loss in 4600th batch is: 8.829921
+the loss in 4800th batch is: 8.647165
+the loss in 5000th batch is: 8.457262
+the loss in 5200th batch is: 8.361071
+the loss in 5400th batch is: 7.946707
+the loss in 5600th batch is: 8.242666
+the loss in 5800th batch is: 8.264840
+the loss in 6000th batch is: 8.125194
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 291.800000
+clicks hr ndcg @ 5 : 0.018795, 0.013154
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 411.000000
+clicks hr ndcg @ 10 : 0.024909, 0.015088
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 490.600000
+clicks hr ndcg @ 15 : 0.029212, 0.016221
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 554.600000
+clicks hr ndcg @ 20 : 0.032156, 0.016919
+#############################################################
+the loss in 6200th batch is: 7.982027
+the loss in 6400th batch is: 7.894816
+the loss in 6600th batch is: 7.860879
+the loss in 6800th batch is: 7.571648
+the loss in 7000th batch is: 7.553020
+the loss in 7200th batch is: 7.746061
+the loss in 7400th batch is: 7.099660
+the loss in 7600th batch is: 7.234930
+the loss in 7800th batch is: 7.157416
+the loss in 8000th batch is: 6.505189
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 302.200000
+clicks hr ndcg @ 5 : 0.017663, 0.011865
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 420.400000
+clicks hr ndcg @ 10 : 0.024909, 0.014181
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 502.800000
+clicks hr ndcg @ 15 : 0.029212, 0.015337
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 576.000000
+clicks hr ndcg @ 20 : 0.034420, 0.016577
+#############################################################
+the loss in 8200th batch is: 7.221666
+the loss in 8400th batch is: 6.977987
+the loss in 8600th batch is: 6.652237
+the loss in 8800th batch is: 6.974688
+the loss in 9000th batch is: 6.355919
+the loss in 9200th batch is: 6.568322
+the loss in 9400th batch is: 6.565727
+the loss in 9600th batch is: 6.756632
+the loss in 9800th batch is: 6.543548
+the loss in 10000th batch is: 7.041442
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 307.000000
+clicks hr ndcg @ 5 : 0.018569, 0.012617
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 428.400000
+clicks hr ndcg @ 10 : 0.025815, 0.015002
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 509.600000
+clicks hr ndcg @ 15 : 0.030797, 0.016314
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 575.200000
+clicks hr ndcg @ 20 : 0.034647, 0.017221
+#############################################################
+the loss in 10200th batch is: 6.786200
+the loss in 10400th batch is: 6.301118
+the loss in 10600th batch is: 6.526268
+the loss in 10800th batch is: 6.215587
+the loss in 11000th batch is: 6.029029
+the loss in 11200th batch is: 6.053362
+the loss in 11400th batch is: 5.954778
+the loss in 11600th batch is: 6.465365
+the loss in 11800th batch is: 5.985927
+the loss in 12000th batch is: 6.142199
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 298.800000
+clicks hr ndcg @ 5 : 0.018116, 0.012840
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 419.000000
+clicks hr ndcg @ 10 : 0.025362, 0.015162
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 494.000000
+clicks hr ndcg @ 15 : 0.030118, 0.016430
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 571.200000
+clicks hr ndcg @ 20 : 0.035553, 0.017710
+#############################################################
+the loss in 12200th batch is: 6.312576
+the loss in 12400th batch is: 5.903812
+the loss in 12600th batch is: 5.793880
+the loss in 12800th batch is: 6.205686
+the loss in 13000th batch is: 5.700442
+the loss in 13200th batch is: 5.841803
+the loss in 13400th batch is: 5.929221
+the loss in 13600th batch is: 5.737764
+the loss in 13800th batch is: 5.383456
+the loss in 14000th batch is: 5.782005
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 306.600000
+clicks hr ndcg @ 5 : 0.019022, 0.013239
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 428.200000
+clicks hr ndcg @ 10 : 0.027853, 0.016060
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 507.400000
+clicks hr ndcg @ 15 : 0.032835, 0.017373
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 572.200000
+clicks hr ndcg @ 20 : 0.036685, 0.018272
+#############################################################
+the loss in 14200th batch is: 5.372601
+the loss in 14400th batch is: 5.613823
+the loss in 14600th batch is: 5.648546
+the loss in 14800th batch is: 5.404347
+the loss in 15000th batch is: 5.498199
+the loss in 15200th batch is: 5.535165
+the loss in 15400th batch is: 5.598185
+the loss in 15600th batch is: 5.660923
+the loss in 15800th batch is: 5.768424
+the loss in 16000th batch is: 5.288166
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 286.800000
+clicks hr ndcg @ 5 : 0.016984, 0.011357
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 408.400000
+clicks hr ndcg @ 10 : 0.024683, 0.013843
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 481.200000
+clicks hr ndcg @ 15 : 0.028986, 0.014979
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 543.600000
+clicks hr ndcg @ 20 : 0.033062, 0.015945
+#############################################################
+the loss in 16200th batch is: 5.178289
+the loss in 16400th batch is: 5.653510
+the loss in 16600th batch is: 5.527449
+the loss in 16800th batch is: 5.032948
+the loss in 17000th batch is: 5.229900
+the loss in 17200th batch is: 5.436034
+the loss in 17400th batch is: 5.439002
+the loss in 17600th batch is: 5.264451
+the loss in 17800th batch is: 5.355911
+the loss in 18000th batch is: 5.261639
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 278.400000
+clicks hr ndcg @ 5 : 0.015399, 0.010795
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 391.200000
+clicks hr ndcg @ 10 : 0.022645, 0.013134
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 470.000000
+clicks hr ndcg @ 15 : 0.028306, 0.014651
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 539.200000
+clicks hr ndcg @ 20 : 0.032835, 0.015717
+#############################################################
+the loss in 18200th batch is: 4.731509
+the loss in 18400th batch is: 5.530600
+the loss in 18600th batch is: 5.614238
+the loss in 18800th batch is: 5.173095
+the loss in 19000th batch is: 4.844385
+the loss in 19200th batch is: 5.132407
+the loss in 19400th batch is: 5.107695
+the loss in 19600th batch is: 5.093422
+the loss in 19800th batch is: 5.307334
+the loss in 20000th batch is: 4.981858
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 284.800000
+clicks hr ndcg @ 5 : 0.016078, 0.011574
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 390.400000
+clicks hr ndcg @ 10 : 0.022645, 0.013688
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 470.400000
+clicks hr ndcg @ 15 : 0.027853, 0.015058
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 539.200000
+clicks hr ndcg @ 20 : 0.032609, 0.016188
+#############################################################
+the loss in 20200th batch is: 4.930739
+the loss in 20400th batch is: 5.161118
+the loss in 20600th batch is: 5.412259
+the loss in 20800th batch is: 4.808626
+the loss in 21000th batch is: 4.673074
+the loss in 21200th batch is: 5.151395
+the loss in 21400th batch is: 4.923697
+the loss in 21600th batch is: 5.037206
+the loss in 21800th batch is: 4.559793
+the loss in 22000th batch is: 4.735345
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 273.000000
+clicks hr ndcg @ 5 : 0.017210, 0.011503
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 384.000000
+clicks hr ndcg @ 10 : 0.024457, 0.013802
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 462.800000
+clicks hr ndcg @ 15 : 0.028986, 0.015011
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 522.200000
+clicks hr ndcg @ 20 : 0.032835, 0.015919
+#############################################################
+the loss in 22200th batch is: 4.457332
+the loss in 22400th batch is: 4.694324
+the loss in 22600th batch is: 4.878701
+the loss in 22800th batch is: 4.830153
+the loss in 23000th batch is: 4.997033
+the loss in 23200th batch is: 5.082072
+the loss in 23400th batch is: 4.849205
+the loss in 23600th batch is: 4.866649
+the loss in 23800th batch is: 4.589042
+the loss in 24000th batch is: 4.593161
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 264.000000
+clicks hr ndcg @ 5 : 0.013587, 0.009700
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 378.200000
+clicks hr ndcg @ 10 : 0.020607, 0.011967
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 452.000000
+clicks hr ndcg @ 15 : 0.024909, 0.013100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 515.200000
+clicks hr ndcg @ 20 : 0.027853, 0.013788
+#############################################################
+the loss in 24200th batch is: 4.723488
+the loss in 24400th batch is: 4.708683
+the loss in 24600th batch is: 4.768184
+the loss in 24800th batch is: 4.495981
+the loss in 25000th batch is: 4.608891
+the loss in 25200th batch is: 4.596487
+the loss in 25400th batch is: 5.032743
+the loss in 25600th batch is: 4.962399
+the loss in 25800th batch is: 4.677548
+the loss in 26000th batch is: 4.437940
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 269.600000
+clicks hr ndcg @ 5 : 0.015399, 0.010512
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 381.000000
+clicks hr ndcg @ 10 : 0.021060, 0.012340
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 460.200000
+clicks hr ndcg @ 15 : 0.027400, 0.014020
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 522.400000
+clicks hr ndcg @ 20 : 0.030118, 0.014666
+#############################################################
+the loss in 26200th batch is: 4.564418
+the loss in 26400th batch is: 4.341740
+the loss in 26600th batch is: 4.807238
+the loss in 26800th batch is: 4.417175
+the loss in 27000th batch is: 4.808422
+the loss in 27200th batch is: 4.615945
+the loss in 27400th batch is: 4.583989
+the loss in 27600th batch is: 4.821914
+the loss in 27800th batch is: 4.518385
+the loss in 28000th batch is: 5.046418
+#############################################################
+total clicks: 4416 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 5: 259.000000
+clicks hr ndcg @ 5 : 0.014266, 0.009912
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 10: 368.400000
+clicks hr ndcg @ 10 : 0.020380, 0.011862
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 15: 447.800000
+clicks hr ndcg @ 15 : 0.024683, 0.012990
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cumulative reward @ 20: 519.800000
+clicks hr ndcg @ 20 : 0.030118, 0.014285
+#############################################################
+the loss in 28200th batch is: 4.379447
+the loss in 28400th batch is: 4.530863
+the loss in 28600th batch is: 4.678916
+the loss in 28800th batch is: 4.891958
+the loss in 29000th batch is: 4.252236
+the loss in 29200th batch is: 4.577013
+the loss in 29400th batch is: 4.469697
+the loss in 29600th batch is: 4.476236
+the loss in 29800th batch is: 4.447176
+the loss in 30000th batch is: 4.775712
